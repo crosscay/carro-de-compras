@@ -13,7 +13,6 @@ const styles = {
 
 class Button extends Component {
     render() {
-        //const { producto, agregarAlCarro } = this.props;
         return (
             <button
                 style={styles.button} {...this.props}
