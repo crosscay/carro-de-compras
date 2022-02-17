@@ -1,0 +1,25 @@
+import { Component } from 'react';
+
+const styles = {
+    button: {
+        backgroundColor: '#0A283E',
+        color: '#fff',
+        padding: '15px 20px',
+        border: 'none',
+        borderRius: '5px',
+        cursor: 'pointer'
+    }
+}
+
+class Button extends Component {
+    render() {
+        //const { producto, agregarAlCarro } = this.props;
+        return (
+            <button
+                style={styles.button} {...this.props}
+            />
+        )
+    }
+}
+
+export default Button;
