@@ -6,7 +6,7 @@ const styles = {
         color: '#0A283E',
         alignItems: 'center',
         display: 'flex',
-        flexDirection: 'column'
+        flexDirection: 'column',
     },
     container: {
         width: '1200px'

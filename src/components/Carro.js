@@ -23,7 +23,7 @@ class Carro extends Component {
         return (
             <div>
                 <span style={styles.bubble}>
-                    <BubleAlert />
+                    <BubleAlert value={10}/>
                 </span>
                 <button style={styles.carro}>
                     Carro
