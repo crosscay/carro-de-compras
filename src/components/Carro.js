@@ -21,17 +21,20 @@ const styles = {
 
 class Carro extends Component {
     render() {
-        const { carro } = this.props;
-        const cantidad = carro.reduce((acc, el) => acc + el.cantidad, 0)
+        const { carro, esCarroVisible, mostrarCarro } = this.props;
+
+        const cantidad = carro.reduce((acc, el) => acc + el.cantidad, 0);
+        // console.log(this.props);
         return (
             <div>
                 <span style={styles.bubble}>
                     { cantidad !== 0 ? <BubleAlert value={cantidad}/> : null }
                 </span>
-                <button style={styles.carro}>
+                <button onClick={mostrarCarro} style={styles.carro}>
                     Carro
                 </button>
-                <DetallesCarro carro={carro} />
+                { esCarroVisible ? <DetallesCarro carro={carro} /> : null }
+                
             </div> 
         )
     }
