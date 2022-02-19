@@ -49,11 +49,11 @@ class App extends Component {
       <div>
         <Navbar carro={ this.state.carro } esCarroVisible={ esCarroVisible } mostrarCarro={ this.mostrarCarro }/>
         <Layout>
-          <Title/>
-          <Productos 
-            agregarAlCarro={this.agregarAlCarro}
-            productos={this.state.productos}
-          />
+        <Title/>
+        <Productos 
+          agregarAlCarro={this.agregarAlCarro}
+          productos={this.state.productos}
+        />
         </Layout>
       </div>
     )
