@@ -13,9 +13,9 @@ Aplicación web creada en react js.
 Para iniciar el proyecto utilice:
 
 ```bash
-$ git clon https://github.com/crosscay/carro-de-compras.git
+$ git clon https://github.com/crosscay/carro-de-compras-con-react.git
 
-$ cd carro-de-compras
+$ cd carro-de-compras-con-react-develop
 # instala las dependencias del proyecto
 $ npm i
 # ejecute `npm start` para un servidor de desarrollo. Vaya a `http: // localhost: 3000 /`. La aplicación se volverá a cargar automáticamente si cambia alguno de los archivos de origen.
